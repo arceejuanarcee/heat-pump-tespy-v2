@@ -6,12 +6,17 @@ This repo contains a modular, object-oriented tool that models a heat pump in TE
 
 hp_tool/
 ├─ __main__.py        # entrypoint: python -m hp_tool
+
 ├─ cli.py             # argument parsing; wiring of config → pipeline → plots
+
 ├─ config.py          # declarative ColumnMap + default sheet/column names & mapping knobs
+
 ├─ io/
 │  └─ pipeline.py     # core ETL + TESPy workflow (merge sheets, map to refrigerant, solve)
+
 ├─ models/
 │  └─ heat_pump.py    # OOP TESPy model (build, design/offdesign, metrics)
+
 └─ viz/
    └─ plots.py        # time-aware plots (COP, power, Q)
 
@@ -43,7 +48,7 @@ python -m hp_tool `
   --sink_T_out "T_out[degC]" `
 
   --sink_Energy_kWh "Energy[kWh]" `
-  
+
   --outdir results
 
 ### Where to see results
