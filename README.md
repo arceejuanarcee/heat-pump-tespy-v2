@@ -19,8 +19,7 @@ hp_tool/
 
 ### Install new virtual environment
 
-python -m venv .venv
-# Windows
+```python -m venv .venv```
 .venv\Scripts\activate
 
-pip install tespy pandas matplotlib openpyxl
+pip install tespy pandas matplotlib openpyxl ```
