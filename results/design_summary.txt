@@ -1,0 +1,6 @@
+TESPy Heat Pump — Design Condition
+----------------------------------
+T_source_C     : 25.0
+T_sink_C       : 80.0
+Q_cond_kW      : 966.429046369403
+eta_s          : 0.85
