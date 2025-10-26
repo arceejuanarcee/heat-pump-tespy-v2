@@ -31,12 +31,19 @@ PowerShell (Windows):
 
 (Copy-Paste this)
 python -m hp_tool `
+
   --excel "data/HP_case_data.xlsx" `
+
   --sheet_source "Heat source" `
+
   --sheet_sink "Heat sink" `
+
   --src_T_in "T_in[degC]" `
+
   --sink_T_out "T_out[degC]" `
+
   --sink_Energy_kWh "Energy[kWh]" `
+  
   --outdir results
 
 ### Where to see results
